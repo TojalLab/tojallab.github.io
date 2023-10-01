@@ -1,0 +1,28 @@
+---
+title: 'Multiple Instance Learning (MIL) to predict DRD from histopathological images'
+description: 'DNA repair deficiency (DRD) is an important driver of carcinogenesis and an efficient target for anti-tumor therapies to improve patient survival'
+authors:
+ - Renan Valieris
+ - Outro
+ - Israel Tojal da Silva
+category: 
+ - Machine learning
+ - Imaging
+ - Multiple Instance Learning (MIL)
+image: /img/cancers-12-03687-g002.png
+bib: "@article{valieris2020deep,
+  title={Deep learning predicts underlying features on pathology images with therapeutic relevance for breast and gastric cancer},
+  author={Valieris, Renan and Amaro, Lucas and Osorio, Cynthia Aparecida Bueno de Toledo and Bueno, Adriana Passos and Rosales Mitrowsky, Rafael Andres and Carraro, Dirce Maria and Nunes, Diana Noronha and Dias-Neto, Emmanuel and Silva, Israel Tojal da},
+  journal={Cancers},
+  volume={12},
+  number={12},
+  pages={3687},
+  year={2020},
+  publisher={MDPI}
+}"
+links:
+ -  { title: "Paper", url: "https://www.mdpi.com/2072-6694/12/12/3687"}
+ -  { title: "Github repository", url: "https://github.com/rvalieris/deepHE"}
+---
+# Deep Learning Predicts Underlying Features on Pathology Images with Therapeutic Relevance for Breast and Gastric Cancer
+DNA repair deficiency (DRD) is an important driver of carcinogenesis and an efficient target for anti-tumor therapies to improve patient survival. Thus, detection of DRD in tumors is paramount. Currently, determination of DRD in tumors is dependent on wet-lab assays. Here we describe an efficient machine learning algorithm which can predict DRD from histopathological images. The utility of this algorithm is demonstrated with data obtained from 1445 cancer patients. Our method performs rather well when trained on breast cancer specimens with homologous recombination deficiency (HRD), AUC (area under curve) = 0.80. Results for an independent breast cancer cohort achieved an AUC = 0.70. The utility of our method was further shown by considering the detection of mismatch repair deficiency (MMRD) in gastric cancer, yielding an AUC = 0.81. Our results demonstrate the capacity of our learning-base system as a low-cost tool for DRD detection. 
